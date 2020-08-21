@@ -15,5 +15,6 @@ fun main() {
     print(value3)
 
     val person = Person()
+    val person2 = Person(name = "Aung Aung")
 //    person.name = ""
 }

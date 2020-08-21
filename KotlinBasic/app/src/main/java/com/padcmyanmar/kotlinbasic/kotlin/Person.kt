@@ -1,11 +1,9 @@
 package com.padcmyanmar.kotlinbasic.kotlin
 
-class Person{
+class Person(name :String){
 
-    var name:String="Aung Aung"
-    private set(value) {
-        if (value.isNotEmpty()){
-            field = value
-        }
+    constructor():this(name="")
+    init {
+
     }
 }
