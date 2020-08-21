@@ -11,5 +11,7 @@ public class HelloJava {
 
         String value2 = "Read and Write";
         value2 = "Assign";
+
+        Person.getPersonInfo();
     }
 }

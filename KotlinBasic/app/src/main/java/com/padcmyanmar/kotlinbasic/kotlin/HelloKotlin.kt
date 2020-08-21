@@ -13,4 +13,6 @@ fun main() {
 
     value3="Assign me"
     print(value3)
+
+    Person.getPersonInfo()
 }
