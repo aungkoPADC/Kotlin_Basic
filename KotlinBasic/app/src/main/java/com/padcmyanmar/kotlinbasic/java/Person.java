@@ -2,6 +2,16 @@ package com.padcmyanmar.kotlinbasic.java;
 
 public class Person {
 
-    public static void getPersonInfo(){}
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    private void setName(String name) {
+        if (!name.equals("")){
+            this.name = name;
+        }
+    }
 
 }
