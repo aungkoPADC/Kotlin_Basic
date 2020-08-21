@@ -1,9 +1,10 @@
 package com.padcmyanmar.kotlinbasic.kotlin
 
-class Person(name :String){
+open class Person(name :String){
 
-    constructor():this(name="")
-    init {
+    open fun eat(){}
 
-    }
+    fun sleep(){}
+
+    fun work(){}
 }
