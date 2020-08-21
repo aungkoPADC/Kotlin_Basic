@@ -13,6 +13,6 @@ public class HelloJava {
         value2 = "Assign";
 
         new Person().getName();
-        new Person().setName("");
+//        new Person().setName("");
     }
 }
