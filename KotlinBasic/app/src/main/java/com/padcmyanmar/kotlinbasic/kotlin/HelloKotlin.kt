@@ -2,6 +2,10 @@ package com.padcmyanmar.kotlinbasic.kotlin
 
 lateinit var value3 :String
 
+fun calculate(){
+
+}
+
 fun main() {
     print("Hello Kotlin")
 
@@ -14,7 +18,7 @@ fun main() {
     value3="Assign me"
     print(value3)
 
-    val person = Person()
+//    val person = Person()
     val person2 = Person(name = "Aung Aung")
 //    person.name = ""
 }
